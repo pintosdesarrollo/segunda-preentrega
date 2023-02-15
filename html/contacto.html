@@ -45,17 +45,31 @@
     </header>
 
     <main>
-        <h2>Contacto</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repudiandae autem labore voluptates necessitatibus? Atque voluptatem, fugiat alias, consequatur non ipsum vel ad, ipsa fuga quaerat tempore doloribus labore excepturi!
+        <h2 data-aos="fade-up-right">Contacto</h2>
+        <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repudiandae autem labore voluptates necessitatibus? Atque voluptatem, fugiat alias, consequatur non ipsum vel ad, ipsa fuga quaerat tempore doloribus labore excepturi!
         Esse provident recusandae dolorem voluptatem debitis quasi eum, enim ipsa dolorum illum iusto eaque amet deleniti sed culpa tempora sit! Officiis reprehenderit libero, perferendis sequi magnam numquam sapiente mollitia sit.
         Repudiandae, quisquam deleniti, doloremque perferendis illo, est excepturi a laboriosam minima non debitis et! Facere cum temporibus officiis, repellat exercitationem recusandae ut voluptas cumque porro explicabo, cupiditate doloribus inventore animi.</p>
     </main>
 
     <h4>completa el siguiente formulario para ponernos en contacto</h4>
     <section>
-        <form>
-            
+        <form class="formulario">
+            <label for="nombre">nombre</label>
+            <input type="text" id="nombre" placeholder="ingrese su nombre"/>
+
+            <label for="apellido">apellido</label>
+            <input type="text" id="apellido" placeholder="ingrese su apellido"/>
+
+            <label for="e-mail">e-mail</label>
+            <input type="email" id="e-mail" placeholder="ingrese su e-mail"/>
+
+            <label for="comentario"> deja un mensaje</label>
+            <textarea name="" id="comentario" cols="20" rows="12" placeholder="deja un comentario"></textarea>
+
+            <input type="submit" />
         </form>
+
+    
 
     </section>
 

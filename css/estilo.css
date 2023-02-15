@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -14,6 +16,7 @@ h1{
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bienvenidos{
@@ -57,7 +60,8 @@ footer {
     justify-items: center;
     justify-content: space-evenly;
     padding-bottom: 25px;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 @media (max-width:760px){
@@ -81,4 +85,15 @@ footer {
     justify-items: center;
     justify-content: space-between;
     padding: 20px;
+}
+form{
+    margin: auto;
+    width: 50%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.servicioClass{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
