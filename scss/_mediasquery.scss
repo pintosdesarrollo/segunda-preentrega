@@ -1,0 +1,11 @@
+@media (max-width:760px){
+    .cuadroContenedor{
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .contenedorNosotros{
+        display: none;
+    }
+}

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap");
+main {
+  text-align: center;
+}
+
 header {
   background-color: gray;
 }
@@ -27,6 +31,26 @@ footer {
   border: 4px black;
 }
 
+.cuadroContenedor {
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+  .cuadroContenedor {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .contenedorNosotros {
+    display: none;
+  }
+}
 h2 {
   color: black;
   text-transform: uppercase;
