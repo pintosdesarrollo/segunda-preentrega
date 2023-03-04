@@ -1,9 +1,17 @@
-
-$color-marca: deeppink;
-h1{
-    color: $color-marca;
-}
-h2{
-    color: black;
+h1 {
+  color: deeppink;
 }
 
+h2 {
+  color: black;
+}
+
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import "header" ;
+@import "footer" ;
+
+/*# sourceMappingURL=estilo.scss.map */
