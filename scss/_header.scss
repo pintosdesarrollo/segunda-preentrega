@@ -1,5 +1,5 @@
 header{
-    background-color: black;
+    background-color: gray;
     .logo{
         width: 50px;
         height: 50px;
@@ -10,5 +10,11 @@ header{
         text-transform: uppercase;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
+    }
+    .colorLink{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    
     }
 }
