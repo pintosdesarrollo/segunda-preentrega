@@ -1,3 +1,10 @@
+@mixin link {
+    text-decoration: none;
+    color: $color_3;
+    font-weight: bold;
+
+}
+
 header {
     background-color: $background-color_1;
 
@@ -15,9 +22,7 @@ header {
     }
 
     .colorLink {
-        text-decoration: none;
-        color: $color_3;
-        font-weight: bold;
-
+        @include link
     }
 }
+
