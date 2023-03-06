@@ -5,7 +5,17 @@
         justify-content: space-between;
         padding: 30px;
     }
+    
+    iframe{
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+    }
     .contenedorNosotros{
-        display: none;
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
     }
 }

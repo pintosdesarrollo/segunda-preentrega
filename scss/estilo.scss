@@ -1,9 +1,5 @@
+@import "generales", "variables","fuentes","header","footer","mapas","mediasquery";
 
-@import "fuentes" ;
-@import "header" ;
-@import "footer" ;
-@import "galeria" ;
-@import "mediasquery" ;
 
 
 h2{
@@ -11,7 +7,24 @@ h2{
     text-transform: uppercase;
 }
 
-* {
-    margin: 0%;
-    padding: 0%;
+
+
+form{
+    margin: auto;
+    width: 50%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.cuadroContenedor{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.botton{
+    color: black;
+    background-color: $background-color_3;
 }
