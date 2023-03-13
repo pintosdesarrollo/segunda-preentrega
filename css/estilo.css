@@ -18,6 +18,10 @@ main {
   padding-bottom: 25px;
 }
 
+.fondoImagen {
+  background-image: url("../imagenes/backround-image.png");
+}
+
 main {
   text-align: center;
 }
