@@ -7,8 +7,12 @@ main {
 	text-align: center;
 }
 .imgDos{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 5px 10px;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .servicioClass{
     padding-top: 25px;
@@ -16,6 +20,60 @@ main {
 }
 
 .fondoImagen{
-    background-image: url("../imagenes/backround-image.png");
+    background-image: url("../imagenes/banner-tres.png");
+}
+.DivContenedor{
+    position: relative;
+}
+.textoLink{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: black;
+    
+    top: 50%;
+    right: 50%;
 }
 
+body{
+    background-color: #EEE7DF;
+}
+
+.breveInfo{
+   text-align: center;
+
+}
+
+.redesSociales{
+    text-align: center;
+    font-size: 1rem;
+    h4{
+        text-transform: uppercase;
+        color: white;
+    }
+}
+
+.imgTres{
+    width: 50px;
+    height: 50px;
+}
+
+.logosRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+
+}
+
+.serviciosSection{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
