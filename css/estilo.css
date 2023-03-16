@@ -73,10 +73,15 @@ body {
   background-color: white;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 50px;
+  width: 850px;
 }
 .serviciosSection img {
   width: 300px;
   height: 300px;
+}
+.serviciosSection p {
+  font-size: 1rem;
 }
 
 main {
@@ -121,7 +126,14 @@ iframe {
   height: 300px;
   padding: 20px;
 }
-iframe .contenedorNosotros {
+
+.logoJuanaNos {
+  width: 200px;
+  height: 150px;
+  margin-top: 65px;
+}
+
+.contenedorNosotros {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -139,13 +151,19 @@ iframe .contenedorNosotros {
   iframe {
     width: 250px;
     height: 250px;
-    padding: 10px;
+    padding-top: 10px;
   }
   .contenedorNosotros {
     display: flex;
     justify-items: center;
     justify-content: space-between;
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .contenedorNosotros .logoJuanaNos {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .logosRedes {
     margin-right: 5px;
@@ -153,6 +171,27 @@ iframe .contenedorNosotros {
   }
   .logosRedes h5 {
     display: none;
+  }
+  .serviciosSection {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    width: 250px;
+    height: 100px;
+  }
+  .serviciosSection img {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+  }
+  .serviciosSection h3 {
+    font-size: 1rem;
+  }
+  .serviciosSection p {
+    font-size: 0.5rem;
   }
 }
 h2 {

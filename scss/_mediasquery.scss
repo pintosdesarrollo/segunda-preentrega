@@ -9,13 +9,19 @@
     iframe{
         width: 250px;
         height: 250px;
-        padding: 10px;
+        padding-top: 10px;
     }
     .contenedorNosotros{
         display: flex;
         justify-items: center;
         justify-content: space-between;
         flex-direction: column;
+        padding-left: 20px;
+        padding-right: 30px;
+        .logoJuanaNos{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
 
     }
 
@@ -25,6 +31,28 @@
         h5{
             display: none;
         }
+    }
+    .serviciosSection{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        width: 250px;
+        height: 100px;
+        img{
+            width: 50px;
+            height: 50px;
+            margin-top: 25px;
+        }
+        h3{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.5rem;
+        }
+
     }
 
   
