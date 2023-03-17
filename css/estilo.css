@@ -235,7 +235,7 @@ iframe {
     display: none;
   }
   body {
-    width: 100vw;
+    overflow-x: hidden;
   }
 }
 h2 {
@@ -309,6 +309,10 @@ p .col {
   text-transform: lowercase;
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=estilo.css.map */
