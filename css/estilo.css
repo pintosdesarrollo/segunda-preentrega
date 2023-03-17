@@ -16,6 +16,12 @@ main {
   margin-top: 10px;
 }
 
+.imgDos:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
 .servicioClass {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -39,6 +45,7 @@ body {
 .redesSociales {
   text-align: center;
   font-size: 1rem;
+  margin-top: 20px;
 }
 .redesSociales h4 {
   text-transform: uppercase;
@@ -219,12 +226,22 @@ p span {
 
 .breveInfo {
   text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+.breveInfo h4 {
+  font-size: 1.5rem;
+}
+.breveInfo p {
+  font-size: 1rem;
 }
 .breveInfo a {
-  color: #ABDED7;
+  font-size: 1.5rem;
+  color: white;
   background-color: #B0988E;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

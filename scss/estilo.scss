@@ -1,22 +1,22 @@
-@import "generales", "variables","fuentes","header","footer","mapas","mediasquery";
+@import "generales", "variables", "fuentes", "header", "footer", "mapas", "mediasquery";
 
 
 
-h2{
+h2 {
     color: black;
     text-transform: uppercase;
 }
 
 
 
-form{
+form {
     margin: auto;
     width: 50%;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
-.cuadroContenedor{
+.cuadroContenedor {
     display: flex;
     justify-items: center;
     justify-content: space-evenly;
@@ -24,28 +24,43 @@ form{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.botton{
+
+.botton {
     color: $color_2;
-	background-color: $background-color_3;
+    background-color: $background-color_3;
 }
 
 
 
-p{
-    span{
-        background-color:$background-color_2;
+p {
+    span {
+        background-color: $background-color_2;
     }
 }
 
-.breveInfo{
+.breveInfo {
     text-align: center;
-    a{
-     color: $color_3 ;
-     background-color: $background-color_1 ;
-     text-decoration: none;
-     text-transform: uppercase;
-    
+    margin: 5px 5px 5px 5px;
+    h4{
+        font-size: 1.5rem;
     }
- 
- 
- }
+    p{
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+        color: white;
+        background-color: $background-color_1 ;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+        border-radius: 10px;
+        
+        padding: 10px 10px 10px 10px;
+
+
+    }
+
+
+}
