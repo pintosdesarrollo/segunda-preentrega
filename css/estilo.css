@@ -61,7 +61,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 
 .serviciosSection {
@@ -80,6 +80,29 @@ body {
 }
 .serviciosSection p {
   font-size: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pUno {
+  margin-top: 45px;
+}
+
+.pDos {
+  margin-top: 15px;
+}
+
+.pTres {
+  margin-top: 70px;
+}
+
+.pCuatro {
+  margin-top: 75px;
+}
+
+.mainservicios {
+  margin: 5px 20px 20px 5px;
+  margin-top: 20px;
 }
 
 main {
@@ -177,18 +200,39 @@ iframe {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 10px;
-    width: 250px;
-    height: 100px;
+    width: 280px;
+    height: 150px;
   }
   .serviciosSection img {
     width: 120px;
     height: 100px;
+    margin-top: 25px;
   }
   .serviciosSection h3 {
     font-size: 1rem;
   }
   .serviciosSection p {
     font-size: 0.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .pUno {
+    margin-top: 35px;
+  }
+  .pDos {
+    margin-top: 30px;
+  }
+  .pTres {
+    margin-top: 40px;
+  }
+  .pCuatro {
+    margin-top: 30px;
+  }
+  .breveInfo {
+    margin: 5px 5px 5px 5px;
+  }
+  .spanNone {
+    display: none;
   }
   body {
     width: 100vw;
@@ -220,26 +264,49 @@ form {
   background-color: green;
 }
 
-p span {
+p .sub {
   background-color: #4D8581;
+}
+p .col {
+  color: #4D8581;
 }
 
 .breveInfo {
   text-align: center;
-  margin: 5px 5px 5px 5px;
+  margin: 20px 20px 20px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .breveInfo h4 {
   font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 .breveInfo p {
   font-size: 1rem;
+  margin-bottom: 50px;
 }
 .breveInfo a {
+  margin-top: 35px;
   font-size: 1.5rem;
   color: white;
   background-color: #B0988E;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.botonpedido {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.botonpedido a {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #B0988E;
+  text-decoration: none;
+  text-transform: lowercase;
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
 }
