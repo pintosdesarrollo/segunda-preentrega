@@ -28,3 +28,24 @@ form{
     color: $color_2;
 	background-color: $background-color_3;
 }
+
+
+
+p{
+    span{
+        background-color:$background-color_2;
+    }
+}
+
+.breveInfo{
+    text-align: center;
+    a{
+     color: $color_3 ;
+     background-color: $background-color_1 ;
+     text-decoration: none;
+     text-transform: uppercase;
+    
+    }
+ 
+ 
+ }
