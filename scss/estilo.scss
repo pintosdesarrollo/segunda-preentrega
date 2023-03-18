@@ -23,11 +23,18 @@ form {
     padding-bottom: 25px;
     flex-direction: row;
     flex-wrap: wrap;
+    img{
+        height: 300px;
+    }
+    div{
+        margin-top: 20px;
+    }
+    
 }
 
 .botton {
-    color: $color_2;
-    background-color: $background-color_3;
+    color: white;
+    background-color: $background-color_2;
 }
 
 

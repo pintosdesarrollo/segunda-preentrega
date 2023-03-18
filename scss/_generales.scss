@@ -4,68 +4,73 @@
 }
 
 main {
-	text-align: center;
+    text-align: center;
 }
-.imgDos{
+
+.imgDos {
     width: 150px;
     height: 150px;
     box-shadow: 2px 2px 10px black;
-    
+
     margin-bottom: 10px;
     margin-top: 10px;
-    
+
 }
 
-.imgDos:hover{
-    cursor:pointer;
+.imgDos:hover {
+    cursor: pointer;
     transform: translateY(-3px);
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
-.servicioClass{
+
+.servicioClass {
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.fondoImagen{
+.fondoImagen {
     background-image: url("../imagenes/banner-tres.png");
 }
-.DivContenedor{
+
+.DivContenedor {
     position: relative;
-    a{
+
+    a {
         text-decoration: none;
     }
 }
 
-body{
+body {
     background-color: #EEE7DF;
 }
 
 
 
-.redesSociales{
+.redesSociales {
     text-align: center;
     font-size: 1rem;
     margin-top: 20px;
-    h4{
+
+    h4 {
         text-transform: uppercase;
         color: white;
     }
 }
 
-.imgTres{
+.imgTres {
     width: 50px;
     height: 50px;
 }
 
-.logosRedes{
+.logosRedes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 35px;
-    
+
 }
 
-.serviciosSection{
+.serviciosSection {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -74,34 +79,100 @@ body{
     margin-left: 50px;
     width: 850px;
     height: 300px;
-    img{
+
+    img {
         width: 400px;
         height: 300px;
     }
-    p{
+
+    p {
         font-size: 1rem;
         margin-left: 10px;
         margin-right: 10px;
     }
 
 }
-.pUno{
+
+.pUno {
     margin-top: 45px;
 }
-.pDos{
+
+.pDos {
     margin-top: 15px;
 }
-.pTres{
+
+.pTres {
     margin-top: 70px;
 }
-.pCuatro{
+
+.pCuatro {
     margin-top: 75px;
 }
 
-.mainservicios{
+.mainservicios {
     margin: 5px 20px 20px 5px;
     margin-top: 20px;
 }
 
+.mainCuadros {
+    margin-top: 25px;
+}
 
+.parrafoCuadros {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 25px;
+}
 
+.divCuadroS {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    h4 {
+        border: 2px solid #B0988E;
+        padding: 5px 5px 5px 5px;
+        
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+.mainNosotros{
+    margin-left: 50px;
+    margin-right: 50px;
+    h2{
+        font-size: 1.5rem;
+        text-decoration: underline;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    h3{
+        font-size: 1.5rem;
+        text-decoration: underline;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    h4{
+        font-size: 1.5rem;
+        text-decoration: underline;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 1rem;
+    }
+    
+    
+    .divNoss{
+
+        border: #B0988E solid 2px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding-left: 25px;
+            padding-right: 25px;
+    }
+}

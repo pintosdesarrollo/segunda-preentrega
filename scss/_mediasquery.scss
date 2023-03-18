@@ -1,38 +1,43 @@
-@media (max-width:760px){
-    .cuadroContenedor{
+@media (max-width:760px) {
+    .cuadroContenedor {
         display: flex;
         justify-items: center;
         justify-content: space-between;
         padding: 30px;
+
     }
-    
-    iframe{
+
+    iframe {
         width: 250px;
         height: 250px;
         padding-top: 10px;
     }
-    .contenedorNosotros{
+
+    .contenedorNosotros {
         display: flex;
         justify-items: center;
         justify-content: space-between;
         flex-direction: column;
         padding-left: 20px;
         padding-right: 30px;
-        .logoJuanaNos{
+
+        .logoJuanaNos {
             padding-top: 10px;
             padding-bottom: 10px;
         }
 
     }
 
-    .logosRedes{
+    .logosRedes {
         margin-right: 5px;
         margin-left: 5px;
-        h5{
+
+        h5 {
             display: none;
         }
     }
-    .serviciosSection{
+
+    .serviciosSection {
         display: flex;
         flex-direction: row;
         background-color: white;
@@ -41,46 +46,115 @@
         margin-left: 10px;
         width: 280px;
         height: 150px;
-        img{
+
+        img {
             width: 120px;
             height: 100px;
             margin-top: 25px;
-            
+
         }
-        h3{
+
+        h3 {
             font-size: 1rem;
         }
-        p{
+
+        p {
             font-size: 0.5rem;
             margin-left: 5px;
             margin-right: 5px;
         }
 
     }
-    .pUno{
+
+    .pUno {
         margin-top: 35px;
     }
-    .pDos{
+
+    .pDos {
         margin-top: 30px;
-    }
-    .pTres{
-        margin-top: 40px;
-    }
-    .pCuatro{
-        margin-top: 30px;
-    }
-    .breveInfo {
-    
-        margin: 5px 5px 5px 5px;
-    
-    
     }
 
-    .spanNone{
+    .pTres {
+        margin-top: 40px;
+    }
+
+    .pCuatro {
+        margin-top: 30px;
+    }
+
+    .breveInfo {
+
+        margin: 5px 5px 5px 5px;
+
+
+    }
+
+    .parrafoCuadros {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    .divCuadroS {
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        h4 {
+            border: 2px solid #B0988E;
+            padding: 5px 5px 5px 5px;
+            font-size: 1rem;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    .mainNosotros{
+        margin-left: 50px;
+        margin-right: 50px;
+        h2{
+            font-size: 1.5rem;
+            text-decoration: underline;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        h3{
+            font-size: 1.5rem;
+            text-decoration: underline;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        h4{
+            font-size: 1.5rem;
+            text-decoration: underline;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 1rem;
+        }
+        
+        
+        .divNoss{
+    
+            border: #B0988E solid 2px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 2px;
+            margin-left: 2px;
+            padding-left: 5px;
+            padding-right: 5px;
+           
+        }
+    }
+
+    .spanNone {
         display: none;
     }
 
-    body{
+
+    body {
         overflow-x: hidden;
     }
 }
