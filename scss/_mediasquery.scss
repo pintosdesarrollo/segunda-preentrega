@@ -110,34 +110,39 @@
             margin-right: 10px;
         }
     }
-    .mainNosotros{
+
+    .mainNosotros {
         margin-left: 50px;
         margin-right: 50px;
-        h2{
+
+        h2 {
             font-size: 1.5rem;
             text-decoration: underline;
             margin-top: 20px;
             margin-bottom: 10px;
         }
-        h3{
+
+        h3 {
             font-size: 1.5rem;
             text-decoration: underline;
             margin-top: 20px;
             margin-bottom: 10px;
         }
-        h4{
+
+        h4 {
             font-size: 1.5rem;
             text-decoration: underline;
             margin-top: 20px;
             margin-bottom: 10px;
         }
-        p{
+
+        p {
             font-size: 1rem;
         }
-        
-        
-        .divNoss{
-    
+
+
+        .divNoss {
+
             border: #B0988E solid 2px;
             margin-top: 20px;
             margin-bottom: 20px;
@@ -145,22 +150,41 @@
             margin-left: 2px;
             padding-left: 5px;
             padding-right: 5px;
-           
+
         }
     }
 
-    form {
-        background-color: $background-color_2;
-        width: 250px;
-        padding: 10px;
-        margin-top: 25px;
-        box-shadow: 5px 5px 10px;
-        margin-bottom: 25px;
-    
-        label{
-            display: none;
+    section {
+        form {
+            width: 300px;
+            height: 400px;
+            padding: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+            margin-left: 35px;
+            margin-right: 20px;
+            label {
+                width: 200px;
+                margin-bottom: 5px;
+            }
+            textarea {
+                width: 200px;
+                height: 20x;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            input {
+                width: 200px;
+                height: 30px;
+                margin-bottom: 5px;
+            }
+
         }
-    
+    }
+
+    .dejaComentario {
+        display: none;
     }
 
     .spanNone {

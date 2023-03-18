@@ -376,15 +376,32 @@ iframe {
     padding-left: 5px;
     padding-right: 5px;
   }
-  form {
-    background-color: #4D8581;
-    width: 250px;
+  section form {
+    width: 300px;
+    height: 400px;
     padding: 10px;
-    margin-top: 25px;
-    box-shadow: 5px 5px 10px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 20px;
   }
-  form label {
+  section form label {
+    width: 200px;
+    margin-bottom: 5px;
+  }
+  section form textarea {
+    width: 200px;
+    height: 20x;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  section form input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  .dejaComentario {
     display: none;
   }
   .spanNone {
@@ -478,16 +495,43 @@ body {
 }
 
 form {
-  background-color: #4D8581;
-  width: 500px;
+  background-color: white;
+  width: 450px;
+  height: 550px;
   padding: 25px;
   margin-top: 50px;
   box-shadow: 5px 5px 10px;
   margin-bottom: 50px;
-  display: flex;
+  text-align: center;
+  border-radius: 5px;
 }
 form label {
-  color: white;
+  color: #4D8581;
+  width: 350px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: left;
+}
+form textarea {
+  background-color: white;
+  width: 350px;
+  height: 100px;
+  margin-bottom: 10px;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+form input {
+  background-color: white;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 10px;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+
+.botonEnviar {
+  cursor: pointer;
+  background-color: #4D8581;
 }
 
 /*# sourceMappingURL=estilo.css.map */

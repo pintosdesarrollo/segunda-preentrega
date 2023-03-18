@@ -111,17 +111,46 @@ body {
 }
 
 form {
-    background-color: $background-color_2;
-    width: 500px;
+    background-color:white;
+    width: 450px;
+    height: 550px;
     padding: 25px;
     margin-top: 50px;
     box-shadow: 5px 5px 10px;
     margin-bottom: 50px;
-    display: flex;
+    text-align: center;
+    border-radius: 5px;
     
 
     label{
-        color: white;
+        color: $color_1;
+        width: 350px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        text-align: left;
     }
 
+    textarea{
+        background-color:white;
+        width: 350px;
+        height: 100px;
+        margin-bottom: 10px;
+        border: solid 1px gray;
+        border-radius: 5px;
+        
+    }
+
+    input{
+        background-color: white;
+        width: 350px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: solid 1px gray;
+        border-radius: 5px;
+    }
+
+}
+.botonEnviar{
+    cursor: pointer;
+    background-color: $color_1;
 }
