@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap");
+@import url("https://fonts.googleapis.com/css2? familia= Oswald:peso@300 &family= Roboto:wght@300 & display=swap");
+@import url("https://fonts.googleapis.com/css2? familia= Libre+Baskerville &familia= Oswald:peso@300 &family= Roboto:wght@300 & display=swap");
+@import url("https://fonts.googleapis.com/css2? familia= Libre+Baskerville &familia= Miriam+Libre &familia= Oswald:peso@300 &family= Roboto:wght@300 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Miriam+Libre&family=Oswald:wght@300&family=Rhodium+Libre&family=Roboto:wght@300&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -85,11 +88,11 @@ body {
 }
 
 .pUno {
-  margin-top: 45px;
+  margin-top: 20px;
 }
 
 .pDos {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .pTres {
@@ -168,6 +171,35 @@ main {
   text-align: center;
 }
 
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+h4 {
+  font-family: "Oswald", sans-serif;
+}
+
+h5 {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "Rhodium Libre", serif;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
 header {
   background-color: #B0988E;
 }
@@ -177,10 +209,10 @@ header .logo {
 }
 header h1 {
   color: #4D8581;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "Libre Baskerville", serif;
 }
 header .colorLink {
   text-decoration: none;
@@ -344,6 +376,17 @@ iframe {
     padding-left: 5px;
     padding-right: 5px;
   }
+  form {
+    background-color: #4D8581;
+    width: 250px;
+    padding: 10px;
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px;
+    margin-bottom: 25px;
+  }
+  form label {
+    display: none;
+  }
   .spanNone {
     display: none;
   }
@@ -432,6 +475,19 @@ p .col {
 
 body {
   overflow-x: hidden;
+}
+
+form {
+  background-color: #4D8581;
+  width: 500px;
+  padding: 25px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px;
+  margin-bottom: 50px;
+  display: flex;
+}
+form label {
+  color: white;
 }
 
 /*# sourceMappingURL=estilo.css.map */

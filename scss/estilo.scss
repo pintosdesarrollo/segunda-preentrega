@@ -23,13 +23,15 @@ form {
     padding-bottom: 25px;
     flex-direction: row;
     flex-wrap: wrap;
-    img{
+
+    img {
         height: 300px;
     }
-    div{
+
+    div {
         margin-top: 20px;
     }
-    
+
 }
 
 .botton {
@@ -40,13 +42,14 @@ form {
 
 
 p {
-    .sub{
+    .sub {
         background-color: $background-color_2;
     }
-    .col{
+
+    .col {
         color: $color_1;
     }
-   
+
 }
 
 .breveInfo {
@@ -54,11 +57,13 @@ p {
     margin: 20px 20px 20px 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    h4{
+
+    h4 {
         font-size: 1.5rem;
         margin-bottom: 15px;
     }
-    p{
+
+    p {
         font-size: 1rem;
         margin-bottom: 50px;
     }
@@ -70,9 +75,9 @@ p {
         background-color: $background-color_1 ;
         text-decoration: none;
         text-transform: lowercase;
-        
+
         border-radius: 10px;
-        
+
         padding: 10px 10px 10px 10px;
 
 
@@ -81,24 +86,42 @@ p {
 
 }
 
-.botonpedido{
+.botonpedido {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
-    a{
+
+    a {
         font-size: 1.5rem;
         color: white;
         background-color: $background-color_1 ;
         text-decoration: none;
         text-transform: lowercase;
-        
+
         border-radius: 10px;
-        
+
         padding: 10px 10px 10px 10px;
-        
+
     }
-    
+
 }
-body{
+
+body {
     overflow-x: hidden;
+}
+
+form {
+    background-color: $background-color_2;
+    width: 500px;
+    padding: 25px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px;
+    margin-bottom: 50px;
+    display: flex;
+    
+
+    label{
+        color: white;
+    }
+
 }
